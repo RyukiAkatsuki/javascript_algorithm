@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Nim</title>
+</head>
+<body>
+    <header class="welcome">
+        <h1>Jeu de Nim</h1>
+        <p>Bienvenue dans le jeu de Nim ou plus connu sous le nom du jeu des bâtonnets ou allumettes. <br>
+            Un jeu connu dans l'émission Fort Boyard. Il se joue à 2 joueurs
+        </p>
+        <h2>Règles du Jeu: </h2>
+        <p>Les règles du jeu sont simple, le jeu dispose de 20 allumettes (ou + si on le souhaites) <br>
+             chaque joueur doit prendre de 1 à 3 allumettes et le dernier qui prends la dernière allumettes perd la partie</p>
+    </header>
+
+    <div class="boardgame">
+        <h3 id="player"></h3>
+        <div id="baton">
+            Afin de commencer la partie, veuillez choisir le nombre de bâtonnets:
+        </div>
+        <p id="listbaton">
+            <table>
+                <tr id="tbat">
+                    <td><img src="bâtonnets.jpg" alt="craie" width="300"></td>
+                </tr>
+            </table>
+        </p>
+        <div class="begin">
+            <button type="button" onclick="flam('tbat','baton','nb')"> (Re)commencer </button>
+            <label>Jouer avec </label>
+            <input type="text" id="nb" name="nb" size="5" value=""/>
+            <label>bâtonnets</label>
+            <span id="error1"></span>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="exo3_nimgames.js"></script>
+</body>
+</html>
