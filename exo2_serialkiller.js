@@ -34,7 +34,7 @@ gameState = new GameState(); gameState.nb_survivors = 5; gameState.list_survivor
 
 // Set the list of name for survivor
 
-var listOfName = ['Nerd', 'Blonde', 'h4ck3r', 'Infermière', 'Sportif', 'Boulet', 'Gamer', 'Otaku', 'Brune', 'Musclé', 'Timide', 'Hulk', 'nalilette', 'Furry', 'Religieux', 'Maniaque'];
+var listOfName = ['Nerd', 'Blonde', 'h4ck3r', 'Infermière', 'Sportif', 'Boulet', 'Gamer', 'Otaku', 'Brune', 'Musclé', 'Timide', 'Hulk', 'Intello', 'Furry', 'Religieux', 'Maniaque'];
 
 // Create survivors 
 
