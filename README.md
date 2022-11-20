@@ -1,1 +1,1 @@
-# javascript_algorithm
+# javascript_algorithm by Rémy
